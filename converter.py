@@ -4,13 +4,12 @@ import csv
 from dataclasses import dataclass
 from io import StringIO
 
-
 OUTPUT_COLUMNS = [
     "E-Mail Adresse",
     "Erstkontakt",
     "Anrede",
     "Hauptadresse PLZ",
-    "Organisationsname",
+    "Organisationname",
     "Nachname",
     "Vorname",
     "Matrikelnummer",
