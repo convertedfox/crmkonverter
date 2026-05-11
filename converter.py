@@ -105,7 +105,7 @@ def convert_csv_text(csv_text: str) -> ConversionResult:
                     "Erstkontakt": row["activated"],
                     "Anrede": row["salutation"],
                     "Hauptadresse PLZ": row["zip"],
-                    "Organisationsname": row["company"],
+                    "Organisationname": row["company"],
                     "Nachname": lastname,
                     "Vorname": firstname,
                     "Matrikelnummer": row["matrikelnummer"],
